@@ -1,0 +1,45 @@
+.app {
+	&__rowmovie {
+		margin-top: 50px;
+
+		&-top {
+			display: grid;
+			grid-template-columns: auto 1fr auto;
+			align-items: center;
+			gap: 10px;
+
+			&__title {
+				display: flex;
+				gap: 5px;
+				align-items: center;
+
+				img {
+					width: 40px;
+				}
+			}
+
+			.hr {
+				width: 100%;
+				height: 2px;
+				background-color: rgba(80, 74, 121, 0.5);
+			}
+			a {
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		&-lists {
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			gap: 20px;
+			margin-top: 20px;
+		}
+		&_loadmore {
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+		}
+	}
+}

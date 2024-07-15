@@ -25,4 +25,5 @@ const App = () => {
 		</div>
 	)
 }
+//This is new changes
 export default App

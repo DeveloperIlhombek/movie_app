@@ -25,5 +25,4 @@ const App = () => {
 		</div>
 	)
 }
-//15.07.2024
 export default App
